@@ -1,0 +1,35 @@
+---
+canvas: "https://dnoneill.github.io/wax-iiif/img/derivatives/iiif/canvas/fullBayeux.json"
+order: 1
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Looks like a viking boat",
+            "purpose": "commenting",
+            "creator": {
+                "id": "jacobthill",
+                "name": "jacobthill"
+            },
+            "created": "2022-06-16T09:53:38.691Z",
+            "modified": "2022-06-16T09:53:55.351Z"
+        }
+    ],
+    "target": {
+        "source": "https://dnoneill.github.io/wax-iiif/img/derivatives/iiif/canvas/fullBayeux.json",
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=8315.619140625,7.1764068603515625,973.791015625,529.1119842529297"
+        },
+        "dcterms:isPartOf": {
+            "id": "https://dnoneill.github.io/wax-iiif/img/derivatives/iiif/fullBayeux/manifest.json",
+            "type": "Manifest"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "585393ad-f86d-4d07-a211-d5fa5a42ba7e.json",
+    "motivation": "commenting"
+}
